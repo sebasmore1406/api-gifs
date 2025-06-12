@@ -16,6 +16,9 @@ function searchGIFs() {
             if (!response.ok) {
                 throw new Error("No hay GIFs.");
             }
+            if (html.input.value.trim().length === 0) {
+                
+            }
             return response.json()
         })
         .then(data => {
