@@ -17,7 +17,7 @@ function searchGIFs() {
                 throw new Error("No hay GIFs.");
             }
             if (html.input.value.trim().length === 0) {
-                
+                throw new Error('Escribe algo.')
             }
             return response.json()
         })
