@@ -51,7 +51,7 @@ button {
 }
 
 button {
-    background-color: #03fe8d;
+    background-color: #15b86f;
     border-radius: 1vh;
     cursor: pointer;
     font-size: large;
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: #534f4c;
+    background-color: #03fe8d;
 }
 
 .search-bar,
